@@ -1,0 +1,9 @@
+Run the following commands in your MySQL to create the database
+
+Step 1: create database birthday_management;
+
+Step 2: use birthday_management;
+
+Step 3: create table testBirth(Name varchar(100), Bdate varchar(100));
+
+Now you are good to go run the software. Enjoy!

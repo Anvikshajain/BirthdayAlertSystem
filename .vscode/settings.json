@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\lucious\\Desktop\\Birthday_arart\\dist\\lib\\jaco-mp3-player-0.9.3.jar",
+        "c:\\Users\\lucious\\Desktop\\Birthday_arart\\dist\\lib\\jcalendar-1.4.jar",
+        "c:\\Users\\lucious\\Desktop\\Birthday_arart\\dist\\lib\\mysql-connector-java-5.1.47-bin.jar",
+        "c:\\Users\\lucious\\Desktop\\Birthday_arart\\dist\\lib\\rs2xml.jar"
+    ]
+}
