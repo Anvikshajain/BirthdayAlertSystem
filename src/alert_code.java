@@ -96,7 +96,7 @@ class alert_code{
                     
                     date = f.format(dcDate.getDate())+"-"+f1.format(dcDate.getDate())+"-"+f2.format(dcDate.getDate());
         
-                    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","lucious","u*r*good1");
+                    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","//your username//","//your password//");
                     pst = (PreparedStatement) con.prepareStatement(sql);
                     pst.setString(1,name_Field.getText());
                     pst.setString(2, date);
@@ -120,7 +120,7 @@ class alert_code{
                 try {
             
                     String sql = "DELETE FROM testbirth WHERE Name=?";
-                    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","root","Anviksha@123");
+                    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","//your username//","//your password//");
                     pst = (PreparedStatement) con.prepareStatement(sql);
                     
                     pst.setString(1,name_Field.getText());
@@ -324,7 +324,7 @@ class alert_code{
     }
     public void showTableData() {
         try{
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","root","Anviksha@123");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/birthday_management?autoReconnect=true&useSSL=false","//your username//","//your password//");
         
             String sql = "SELECT * FROM testbirth"; 
             pst = (PreparedStatement) con.prepareStatement(sql);
